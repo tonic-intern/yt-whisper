@@ -15,7 +15,7 @@ def main():
                         help="video URLs to transcribe")
     parser.add_argument("--model", default="small",
                         choices=whisper.available_models(), help="name of the Whisper model to use")
-    parser.add_argument("--format", default="vtt",
+    parser.add_argument("--format", default="srt",
                         choices=["vtt", "srt"], help="the subtitle format to output")
     parser.add_argument("--output_dir", "-o", type=str,
                         default=".", help="directory to save the outputs")
