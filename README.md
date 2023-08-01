@@ -2,7 +2,9 @@
 
 This repository uses `yt-dlp` and [OpenAI's Whisper](https://openai.com/blog/whisper) to generate subtitle files for any youtube video.
 
-This specific fork sets the default output to .srt and corrects the line break formatting as well as fixing the openai-whisper pull reference.
+This specific fork sets the default output to .srt and corrects the line break formatting.
+
+It also updates the 'openai-whisper' project pull request to fix the metadata inconsistency.
 
 ## Installation
 
