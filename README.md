@@ -2,11 +2,13 @@
 
 This repository uses `yt-dlp` and [OpenAI's Whisper](https://openai.com/blog/whisper) to generate subtitle files for any youtube video.
 
+This specific fork sets the default output to .srt and corrects the line break formatting.
+
 ## Installation
 
 To get started, you'll need Python 3.7 or newer. Install the binary by running the following command:
 
-    pip install git+https://github.com/m1guelpf/yt-whisper.git
+    pip install git+https://github.com/tonic-intern/yt-whisper.git
 
 You'll also need to install [`ffmpeg`](https://ffmpeg.org/), which is available from most package managers:
 
