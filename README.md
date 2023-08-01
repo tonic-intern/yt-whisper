@@ -27,7 +27,7 @@ choco install ffmpeg
 
 ## Usage
 
-The following command will generate a VTT file from the specified YouTube video
+The following command will generate a SRT file from the specified YouTube video
 
     yt_whisper "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
